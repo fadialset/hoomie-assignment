@@ -3,5 +3,5 @@ module.exports = {
   watch: true,
   nodeResolve: true,
   appIndex: 'index.html',
-  http2: true,
+  http2: false,
 };

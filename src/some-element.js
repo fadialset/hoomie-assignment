@@ -1,6 +1,6 @@
 import { LitElement,html,css } from "lit";
 
-export class SimpleGreeting extends LitElement {
+export class SomeElement extends LitElement {
   static styles = css`p { color: red }`;
 
   static properties = {
@@ -16,4 +16,4 @@ export class SimpleGreeting extends LitElement {
     return html`<p>Hello, ${this.name}!</p>`;
   }
 }
-customElements.define('simple-greeting', SimpleGreeting);
+customElements.define('some-element', SomeElement);
