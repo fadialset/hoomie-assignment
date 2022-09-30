@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "lit": "^2.3.1"
+    
+  },
+  "devDependencies": {
+    "@web/dev-server": ">=0.1.31"
+  },
+  "scripts": {
+    "start": "web-dev-server"
+  }
+}
